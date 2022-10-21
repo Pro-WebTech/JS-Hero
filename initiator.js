@@ -1,7 +1,7 @@
-<script>
-    
-</script>
+
 const el = document.createElement("div");
+
+el.classList.add("preloader");
 
 document.body.appendChild(el);
 
@@ -176,8 +176,8 @@ setTimeout(function () {
 			document.getElementsByTagName("head")[0].appendChild(linkd);
 
 
-			// document.getElementsByClassName("preloader")[0].style.display =
-			// 	"none";
+			document.getElementsByClassName("preloader")[0].style.display =
+				"none";
 		}, 500);
 		// }, 7000);
 		// });
@@ -522,10 +522,10 @@ setTimeout(function () {
 				linkd.crossorigin = "anonymous";
 				document.getElementsByTagName("head")[0].appendChild(linkd);
 
-				// setTimeout(function () {
-				// 	document.getElementsByClassName("preloader")[0].style.display =
-				// 		"none";
-				// }, 2000);
+				setTimeout(function () {
+					document.getElementsByClassName("preloader")[0].style.display =
+						"none";
+				}, 2000);
 			}
 			if (result.includes("white")) {
 				var linkl = document.createElement("link");
@@ -533,10 +533,10 @@ setTimeout(function () {
 				linkl.rel = "stylesheet";
 				linkl.crossorigin = "anonymous";
 				document.getElementsByTagName("head")[0].appendChild(linkl);
-				// setTimeout(function () {
-				// 	document.getElementsByClassName("preloader")[0].style.display =
-				// 		"none";
-				// }, 2000);
+				setTimeout(function () {
+					document.getElementsByClassName("preloader")[0].style.display =
+						"none";
+				}, 2000);
 			}
 
 			if (result.includes("system")) {
@@ -545,10 +545,10 @@ setTimeout(function () {
 				linkl.rel = "stylesheet";
 				linkl.crossorigin = "anonymous";
 				document.getElementsByTagName("head")[0].appendChild(linkl);
-				// setTimeout(function () {
-				// 	document.getElementsByClassName("preloader")[0].style.display =
-				// 		"none";
-				// }, 2000);
+				setTimeout(function () {
+					document.getElementsByClassName("preloader")[0].style.display =
+						"none";
+				}, 2000);
 			}
 			//end of first feature
 		},
